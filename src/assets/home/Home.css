@@ -9,8 +9,9 @@ body {
 }
 .cart{
     width: 250px;
-    height: 300px;
+    height: 330px;
     border: 1px solid gray;
+    width: 9/12;
 }
 .photo{
     width: 80px;
@@ -19,4 +20,18 @@ body {
 .info{
     display: flex;
     justify-content: space-evenly;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.home-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.side-container{
+    width: 3/10;
+
 }
