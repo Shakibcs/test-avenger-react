@@ -1,6 +1,12 @@
+import { useEffect } from 'react';
 import './Home.css'
 const Home = () => {
 
+    useEffect(()=>{
+        fetch('../../../data.json')
+        .then(res => res.json())
+        .then(data => console.log(data))
+    },[])
 
     return (
         <div className="container">
